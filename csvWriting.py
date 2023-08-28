@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen
 import re
 import requests
-leagueID = input("Enter League ID: ")
-league_name = input ("League Name: ")
-season = input("Season: ")
+leagueID = input(21116)
+league_name = input ("FLEG IX")
+season = input(3)
 
 #gets the total numver of players in a given season
 def get_numberofowners() :
